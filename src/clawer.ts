@@ -157,7 +157,7 @@ const claw = async (
 };
 
 (async () => {
-  for (const d of lodash.range(145, 300)) {
+  for (const d of lodash.range(80, 220)) {
     await Promise.all(
       Constants.CENTER_NAMES.map((name) => claw(name, 20, d, 5))
     );

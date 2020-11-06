@@ -40,7 +40,7 @@ import WechatQR from "./wechat_qr.jpg";
 import { TextField } from "@material-ui/core";
 
 const JSON5_URL =
-  "https://raw.githubusercontent.com/vicdus/uscis-case-statistics/master/src/data.json5";
+  "https://raw.githubusercontent.com/zhiying-xu/uscis-case-statistics/master/src/data.json5";
 
 const statusMap = new Map([
   ["Case Was Approved And My Decision Was Emailed", "Case Was Approved"],
